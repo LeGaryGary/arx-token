@@ -3,6 +3,11 @@
 WAR implements the ERC20 interface making it easy to integrate it on existing systems.
 Functions almost the same as Wrapped Bitcoin https://www.wbtc.network/
 
+Network Contracts:
+
+Rinkeby: 0x8d996F145e647a6ef29E0Da090a325CfE5a19ecA
+
+
 ## Adding Minters
 
 Adds minters via the `configureMinter` method.
