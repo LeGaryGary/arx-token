@@ -1,0 +1,21 @@
+/config/secrets.js
+node_modules/
+/node_modules
+.directory
+build/
+coverage/
+coverage.json
+.idea/
+artifacts/
+.DS_Store
+contracts/.DS_Store
+.vscode
+.zos
+
+# ZeppelinOS
+zos.dev-*.json
+.zos.session
+
+package-lock.json
+credentials.json
+/scripts/redeployWAR.sh
