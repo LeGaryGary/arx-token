@@ -18,4 +18,4 @@ echo "zos push...."
 zos push
 
 echo "creating upgradable contract...."
-zos create WARToken --init initialize --args "WARToken","WAR",6,0x772707e8cee9fbab1ce4274130d0e6bac8fa872f,0x99b5a3cbea758e1f60dd3c9a41a0a09088546b02,0xf9cc6ca67655cd3021fa1df938da1fb323e726c1,0x5a282ec9fb76b00cebb803c618f30970b0643f5b
+zos create ARXToken --init initialize --args "ARXToken","ARX",6,0x772707e8cee9fbab1ce4274130d0e6bac8fa872f,0x99b5a3cbea758e1f60dd3c9a41a0a09088546b02,0xf9cc6ca67655cd3021fa1df938da1fb323e726c1,0x5a282ec9fb76b00cebb803c618f30970b0643f5b

@@ -6,10 +6,10 @@ import "./Ownable.sol";
 import "./Blacklistable.sol";
 import "./Pausable.sol";
 /**
- * @title WARToken
+ * @title ARXToken
  * @dev enhanced ERC20 Token
 */
-contract WARToken is Ownable, ERC20, Pausable, Blacklistable {
+contract ARXToken is Ownable, ERC20, Pausable, Blacklistable {
     using SafeMath for uint256;
 
     string public name;

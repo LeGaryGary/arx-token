@@ -5,8 +5,9 @@ Functions almost the same as Wrapped Bitcoin https://www.wbtc.network/
 
 Network Contracts:
 
-Rinkeby: 0x8d996F145e647a6ef29E0Da090a325CfE5a19ecA
+#### Mainnet: 0x9b7d9AaEF003C0cbA76A6556e0ebBC117144E9f9
 
+anything other than the above address is most likely a scam.
 
 ## Adding Minters
 

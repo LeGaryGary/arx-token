@@ -28,6 +28,13 @@ module.exports = {
       gas: 5500000,
       gasPrice: 1000000000, // 1GWEI
       from: '0x00C15B2c45B1Ab907A1213B697341D2fF24Fe181'
+    },
+    mainnet: {
+      provider: new HDWalletProvider(war_Mnemonic, war_RPC_URL),
+      network_id: 1,
+      gas: 5500000,
+      gasPrice: 5000000000, // 5GWEI
+      from: '0x00C15B2c45B1Ab907A1213B697341D2fF24Fe181'
     }
   }
 };

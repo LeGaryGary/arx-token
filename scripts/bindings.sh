@@ -6,6 +6,6 @@ truffle-flattener ./contracts/??????.sol --output bindings/Flat.sol
 cd bindings
 echo "Working....."
 solcjs --abi Flat.sol
-abigen --abi=Flat_sol_Flat.abi --pkg=smartcontracts --type WARToken --out=WARToken.go
+abigen --abi=Flat_sol_Flat.abi --pkg=smartcontracts --type ARXToken --out=ARXToken.go
 rm -rf *.abi
 echo "Done!....."

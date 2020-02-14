@@ -1,4 +1,4 @@
-const WARToken = artifacts.require('./WARToken.sol');
+const ARXToken = artifacts.require('./ARXToken.sol');
 
 module.exports = function(deployer) {
   // ganache addresses
@@ -8,9 +8,9 @@ module.exports = function(deployer) {
   var owner = '0x95915d3457da59f25cfc6f53b7f2056b376943e4';
 
   deployer.deploy(
-    WARToken,
-    'WARToken',
-    'WAR',
+    ARXToken,
+    'ARXToken',
+    'ARX',
     6,
     masterMinter,
     pauser,

@@ -19,3 +19,4 @@ zos.dev-*.json
 package-lock.json
 credentials.json
 /scripts/redeployWAR.sh
+/config/secrets_rinkeby.js

@@ -1,7 +1,7 @@
 {
   "contracts": {
-    "WARToken": {
-      "address": "0xa705d8e3b3c0A98Ee410713dD3bBD3B08fC66744",
+    "ARXToken": {
+      "address": "0x8d996F145e647a6ef29E0Da090a325CfE5a19ecA",
       "constructorCode": "608060405260018054600160a01b60ff021916905561002433610029602090811b901c565b61004b565b600080546001600160a01b0319166001600160a01b0392909216919091179055565b6116ad8061005a6000396000f3fe",
       "bodyBytecodeHash": "a297fc95648622c5d56a86c4a42f39be6afe95cc208467649d5fef02ce753bdb",
       "localBytecodeHash": "da1ad59a430044f87da255d4cdbcd63cc1ae34ecf1cd93c1e34b6982784f6dc1",
@@ -50,121 +50,121 @@
           "contract": "Ownable",
           "path": "contracts/Ownable.sol",
           "label": "_owner",
-          "astId": 256,
+          "astId": 951,
           "type": "t_address",
-          "src": "104:22:4"
+          "src": "104:22:5"
         },
         {
           "contract": "Pausable",
           "path": "contracts/Pausable.sol",
           "label": "pauser",
-          "astId": 343,
+          "astId": 1038,
           "type": "t_address",
-          "src": "292:21:5"
+          "src": "292:21:6"
         },
         {
           "contract": "Pausable",
           "path": "contracts/Pausable.sol",
           "label": "paused",
-          "astId": 346,
+          "astId": 1041,
           "type": "t_bool",
-          "src": "319:26:5"
+          "src": "319:26:6"
         },
         {
           "contract": "Blacklistable",
           "path": "contracts/Blacklistable.sol",
           "label": "blacklister",
-          "astId": 6,
+          "astId": 701,
           "type": "t_address",
-          "src": "193:26:0"
+          "src": "193:26:1"
         },
         {
           "contract": "Blacklistable",
           "path": "contracts/Blacklistable.sol",
           "label": "blacklisted",
-          "astId": 10,
+          "astId": 705,
           "type": "t_mapping<t_bool>",
-          "src": "225:45:0"
+          "src": "225:45:1"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "name",
-          "astId": 437,
+          "astId": 19,
           "type": "t_string",
-          "src": "318:18:6"
+          "src": "318:18:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "symbol",
-          "astId": 439,
+          "astId": 21,
           "type": "t_string",
-          "src": "342:20:6"
+          "src": "342:20:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "decimals",
-          "astId": 441,
+          "astId": 23,
           "type": "t_uint8",
-          "src": "368:21:6"
+          "src": "368:21:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "masterMinter",
-          "astId": 443,
+          "astId": 25,
           "type": "t_address",
-          "src": "395:27:6"
+          "src": "395:27:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "initialized",
-          "astId": 445,
+          "astId": 27,
           "type": "t_bool",
-          "src": "428:25:6"
+          "src": "428:25:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "balances",
-          "astId": 449,
+          "astId": 31,
           "type": "t_mapping<t_uint256>",
-          "src": "460:45:6"
+          "src": "460:45:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "allowed",
-          "astId": 455,
+          "astId": 37,
           "type": "t_mapping<t_uint256>",
-          "src": "511:64:6"
+          "src": "511:64:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "totalSupply_",
-          "astId": 457,
+          "astId": 39,
           "type": "t_uint256",
-          "src": "581:29:6"
+          "src": "581:29:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "minters",
-          "astId": 461,
+          "astId": 43,
           "type": "t_mapping<t_bool>",
-          "src": "616:41:6"
+          "src": "616:41:0"
         },
         {
-          "contract": "WARToken",
-          "path": "contracts/WARToken.sol",
+          "contract": "ARXToken",
+          "path": "contracts/ARXToken.sol",
           "label": "minterAllowed",
-          "astId": 465,
+          "astId": 47,
           "type": "t_mapping<t_uint256>",
-          "src": "663:50:6"
+          "src": "663:50:0"
         }
       ],
       "warnings": {
@@ -178,17 +178,17 @@
   },
   "solidityLibs": {},
   "proxies": {
-    "war-tojen/WARToken": [
+    "ARX/ARXToken": [
       {
-        "address": "0x8d996F145e647a6ef29E0Da090a325CfE5a19ecA",
-        "version": "2.3",
-        "implementation": "0xa705d8e3b3c0A98Ee410713dD3bBD3B08fC66744"
+        "address": "0x9b7d9AaEF003C0cbA76A6556e0ebBC117144E9f9",
+        "version": "1.0.1",
+        "implementation": "0x8d996F145e647a6ef29E0Da090a325CfE5a19ecA"
       }
     ]
   },
   "zosversion": "2.2",
-  "version": "2.3",
+  "version": "1.0.1",
   "proxyAdmin": {
-    "address": "0x011cC8870c4912d3062E6E242BE3471185EE99a7"
+    "address": "0xC80768823c5Bf2db04126fBCa583BFbA4B5923b9"
   }
 }
